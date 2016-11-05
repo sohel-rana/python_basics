@@ -13,10 +13,11 @@ while numberPicked != userNumber:
     userNumber = int(input())
     if userNumber == numberPicked:
         print ("Good Job! You guessed my number in " + str(countGuess) + " guesses")
+    elif countGuess == 10:
+        print ("Too many attempts. Better luck next time. The number was " + str(numberPicked))
+        break
     elif userNumber < numberPicked:
         print ("The guess is too low! Try again")
     elif userNumber > numberPicked:
         print ("The is too high! Try again")
-    elif countGuess == 10:
-        print ("Too many attempts. Better luck next time")
-        break
+
