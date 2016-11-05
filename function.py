@@ -8,5 +8,5 @@ def square(number):
 hello("Sohel")
 hello("Rana")
 
-squareTotal = square(10);
-print ("Square of 10 is : "+ str(squareTotal))
+squareTotal = square(10)
+print ("Square of 10 is : " + str(squareTotal))
