@@ -17,3 +17,6 @@ while numberPicked != userNumber:
         print ("The guess is too low! Try again")
     elif userNumber > numberPicked:
         print ("The is too high! Try again")
+    elif countGuess == 10:
+        print ("Too many attempts. Better luck next time")
+        break
